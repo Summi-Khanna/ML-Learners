@@ -1,6 +1,6 @@
 # ML-Learners - Prediction of BUY or SELL signals
 
-## Overview of the Analysis
+## Overview of the Analysis:
 The idea of this project is to come up with the prediction of BUY or SELL signals for two particlar stocks `Amazon` and `Tesla` with the help of machine learning. The reason for choosing these two stocks were to see the model's performance for highly volatile stock like Tesla and for comparatively stable stock like Amazon. 
 Based on the Twitter sentimatal score merged with historical prices of each company compared to S&P 500 (Index), we tried to prdict the signal of `Long Buy` or `Short Sell`.
 
@@ -36,7 +36,7 @@ Additionally, the following packages/libraries are used to run the analysis:
 
 ---
 
-## Installation Guide
+## Installation Guide:
 
 Before running the application first install the following dependencies:
 
@@ -48,17 +48,68 @@ Before running the application first install the following dependencies:
   pip install sklearn
   pip install nltk
   pip install matplotlib
-
 ```
 
 ---
 
-### II. Stages of Machine Learning:
+## Stages of Machine Learning:
+1. Data Collection & data processing
+2. Choosing a models to work on along with simple moving averages - Support Vector Machine (SVM), Logistic Regression, Decision Tree
+3. Training data: using the model, fitting the trained data
+4. Prediction: using trained model to predict the signals of buy or sell 
+5. Evaluation: evaluating model's performance by doing the following:
+   - Calculate the accuracy score of the model
+   - Generate classification report
+6. Train, Test & Evaluate the model's performance 
+
+---
+
+## Results:
+
+The models are evaluated using accuracy, precision, and recall.
+
+### TESLA Analysis:
 
 
+- Support Vector Machine (SVM)
 
-## III. Results
+![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TESLA_SVM.png)
+![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_SVM_dailyreturns.png) ![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_SVM_cumreturn.png)
 
+
+- Logistic Regression
+
+![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_1.png)
+![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_2.png) ![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_3.png)
+
+
+- Decision Tree
+
+![model3](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_DT_1.png)
+![model3](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_DT.png)
+
+
+### AMAZON Analysis:
+
+
+- Support Vector Machine (SVM)
+
+![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_SVM_1.png)
+![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_SVM_2.png) ![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_SVM_3.png)
+
+
+- Logistic Regression
+
+![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_1.png)
+![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_2.png) ![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_3.png)
+
+
+- Decision Tree
+
+![model3]()
+![model3](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/Amzn_DT.png)
+
+---
 
 ## IV. Summary
 
