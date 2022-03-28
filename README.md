@@ -60,11 +60,12 @@ Before running the application first install the following dependencies:
 5. Evaluation: evaluating model's performance by doing the following:
    - Calculate the accuracy score of the model
    - Generate classification report
+   - Plotting returns to see the graph
 6. Train, Test & Evaluate the model's performance 
 
 ---
 
-## Results:
+## Summary:
 
 The models are evaluated using accuracy, precision, and recall.
 
@@ -146,19 +147,6 @@ The models are evaluated using accuracy, precision, and recall.
 
 ---
 
-## IV. Summary
-
-
-
-
----
-
-## Usage
-
-
-
-
----
 
 ## Future Scope:
 
