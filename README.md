@@ -74,6 +74,11 @@ The models are evaluated using accuracy, precision, and recall.
 
 - Support Vector Machine (SVM)
 
+      Inputs(X):
+      Market Sentiment – The percentage of investors which feel bullish during a given week (AAII survey)
+      SMA (Short and Long) – 5 and 20 days
+      Bollinger Bands - 20 days
+
     ![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TESLA_SVM.png)
 
     ![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_SVM_dailyreturns.png)
@@ -82,6 +87,11 @@ The models are evaluated using accuracy, precision, and recall.
 
 
 - Logistic Regression
+
+      Inputs(X):
+      Market Sentiment – The percentage of investors which feel bullish during a given week (AAII survey)
+      SMA (Short and Long) – 5 and 20 days
+      Bollinger Bands - 20 days
 
     ![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_1.png)
 
@@ -112,6 +122,11 @@ The models are evaluated using accuracy, precision, and recall.
 
 - Support Vector Machine (SVM)
 
+      Inputs(X):
+      Market Sentiment – The percentage of investors which feel bullish during a given week (AAII survey)
+      SMA (Short and Long) – 5 and 20 days
+      Bollinger Bands - 20 days
+
     ![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_SVM_1.png)
 
     ![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_SVM_2.png)
@@ -120,6 +135,11 @@ The models are evaluated using accuracy, precision, and recall.
 
 
 - Logistic Regression
+
+      Inputs(X):
+      Market Sentiment – The percentage of investors which feel bullish during a given week (AAII survey)
+      SMA (Short and Long) – 5 and 20 days
+      Bollinger Bands - 20 days
 
     ![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_LR_1.png)
 
@@ -133,9 +153,9 @@ The models are evaluated using accuracy, precision, and recall.
 - Decision Tree
        
        Inputs(X):
-        Market Sentiment – The percentage of investors which feel bullish during a given week (AAII survey)
-        SMA (Short and Long) – 3 and 15 days
-        Twitter Sentiment Score – csv file from kaggle
+       Market Sentiment – The percentage of investors which feel bullish during a given week (AAII survey)
+       SMA (Short and Long) – 7 and 25 days
+       Twitter Sentiment Score – csv file from kaggle
 
 
     ![model3](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_DT_1.png)
