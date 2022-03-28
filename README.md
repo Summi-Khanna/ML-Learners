@@ -88,12 +88,22 @@ The models are evaluated using accuracy, precision, and recall.
 
     ![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_3.png)
 
+        Insights: The SVM model was better at predicting up-days with a 0.96 Recall. Referring to the above classification report, when the SVM model predicted a short sale, it was correct 57% of the time, which led to strong performance. Using logistic regression, Tesla down days were identified 96% of the time, however the model overestimated the number of days to sell short, resulting in an impairment of capital.
+        
 
 - Decision Tree
+
+        Inputs(X):
+        Market Sentiment – The percentage of investors which feel bullish during a given week (AAII survey)
+        SMA (Short and Long) – 5 and 10 days
+        Twitter Sentiment Score – csv file from kaggle
+
 
     ![model3](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_DT_1.png)
 
     ![model3](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_DT.png)
+
+        Insights: For TSLA, the optimal can be achieved if we go for cash hold instead of short sell. Decision Tree model provides ‘long buy’ strategy.
 
 
 ### AMAZON Analysis:
@@ -116,13 +126,23 @@ The models are evaluated using accuracy, precision, and recall.
 
     ![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_LR_3.png)
 
+        Insights: The SVM model was better at predicting up-days with a 0.91 Recall. The SVM model did not perform as well as the model was poor at identifying short sale opportunities. The logistic regression model generated strong performance with Amazon as it was 50% successful at identifying short sale days while still managing strong overall accuracy of 53%.
+
 
 - Decision Tree
+       
+       Inputs(X):
+        Market Sentiment – The percentage of investors which feel bullish during a given week (AAII survey)
+        SMA (Short and Long) – 3 and 15 days
+        Twitter Sentiment Score – csv file from kaggle
+
 
     ![model3](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_DT_1.png)
 
     ![model3](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/Amzn_DT.png)
 
+  
+      Insights: The model performs better for AMZN stock in comparison to TSLA. Decision Tree model provides ‘long buy’ strategy.
 
 ---
 
