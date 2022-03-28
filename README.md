@@ -74,18 +74,25 @@ The models are evaluated using accuracy, precision, and recall.
 - Support Vector Machine (SVM)
 
 ![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TESLA_SVM.png)
-![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_SVM_dailyreturns.png) ![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_SVM_cumreturn.png)
+
+![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_SVM_dailyreturns.png)
+
+![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_SVM_cumreturn.png)
 
 
 - Logistic Regression
 
 ![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_1.png)
-![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_2.png) ![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_3.png)
+
+![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_2.png)
+
+![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_3.png)
 
 
 - Decision Tree
 
 ![model3](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_DT_1.png)
+
 ![model3](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_DT.png)
 
 
@@ -95,19 +102,27 @@ The models are evaluated using accuracy, precision, and recall.
 - Support Vector Machine (SVM)
 
 ![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_SVM_1.png)
-![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_SVM_2.png) ![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_SVM_3.png)
+
+![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_SVM_2.png)
+
+![model1](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_SVM_3.png)
 
 
 - Logistic Regression
 
-![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_1.png)
-![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_2.png) ![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/TSLA_LR_3.png)
+![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_LR_1.png)
+
+![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_LR_2.png)
+
+![model2](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_LR_3.png)
 
 
 - Decision Tree
 
-![model3]()
+![model3](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/AMZN_DT_1.png)
+
 ![model3](https://github.com/Summi-Khanna/ML-Learners/blob/main/Images/Amzn_DT.png)
+
 
 ---
 
