@@ -6,10 +6,11 @@ Based on the Twitter sentimatal score merged with historical prices of each comp
 
 The models we used to conduct our analysis:
 
-    * Support Vector Machine (SVM)
-    * Logistic Regression
-    * Decision Tree
+- Support Vector Machine (SVM)
+- Logistic Regression
+- Decision Tree
 
+---
 
 ## Data Sources:
 
@@ -17,15 +18,40 @@ The models we used to conduct our analysis:
 - Twitter Sentiment score from Kaggle 
 - Market Sentiment score from survey of AAII.com
 
+---
 
+## Technologies:
 
-## Dataset used 
-Used the below datasets containing the historical stock prices along with market sentiment (bullish) score & Twitter sentiment score, comparing these to base index (S&P 500).
+It supports Python 3.7 and has been constructed using google colab and jupyter lab
 
-    * AMZN_Twitter_Scores
-    * combined_csv_tsla_amzn_spy
-    * TSLA_Twitter_Scores
+Additionally, the following packages/libraries are used to run the analysis:
 
+- [pandas](https://pypi.org/project/pandas/) - for analyzing data
+- [numpy](https://pypi.org/project/numpy/) - for numerical operations
+- [hvplot](https://pypi.org/project/hvplot/) - for visualizing data
+- [holoviews](https://pypi.org/project/holoviews/) - for data analysis and visualization seamless and simple
+- [sklearn](https://pypi.org/project/sklearn/) - for building machine learning models
+- [nltk](https://pypi.org/project/nltk/) - for data preprocessing
+- [vaderSentiment](https://pypi.org/project/vaderSentiment/3.1.1/) - for analysis of sentiments expressed in social media
+
+---
+
+## Installation Guide
+
+Before running the application first install the following dependencies:
+
+```
+  pip install pandas 
+  pip install numpy
+  pip install hvplot
+  pip install holoviews
+  pip install sklearn
+  pip install nltk
+  pip install matplotlib
+
+```
+
+---
 
 ### II. Stages of Machine Learning:
 
