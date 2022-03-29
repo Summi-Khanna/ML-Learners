@@ -33,6 +33,7 @@ Additionally, the following packages/libraries are used to run the analysis:
 - [sklearn](https://pypi.org/project/sklearn/) - for building machine learning models
 - [nltk](https://pypi.org/project/nltk/) - for data preprocessing
 - [vaderSentiment](https://pypi.org/project/vaderSentiment/3.1.1/) - for analysis of sentiments expressed in social media
+- [graphviz](https://graphviz.org/about/) - for visualizing Decision Tree models in a graphical layout.
 
 ---
 
@@ -48,12 +49,14 @@ Before running the application first install the following dependencies:
   pip install sklearn
   pip install nltk
   pip install matplotlib
+  pip install graphviz
 ```
 
 ---
 
 ## Stages of Machine Learning:
 1. Data Collection & data processing
+2. Calculating Twitter scores from twitter data.
 2. Choosing a models to work on along with simple moving averages - Support Vector Machine (SVM), Logistic Regression, Decision Tree
 3. Training data: using the model, fitting the trained data
 4. Prediction: using trained model to predict the signals of buy or sell 
@@ -62,6 +65,17 @@ Before running the application first install the following dependencies:
    - Generate classification report
    - Plotting returns to see the graph
 6. Train, Test & Evaluate the model's performance 
+
+---
+
+## Twitter Data Processing and Twitter Sentimental Score Calculation
+
+1) Cleaning the text: remove the special characters, numbers from the text
+2) Tokenization: process of breaking the text into smaller pieces called Tokens
+3) Enrichment - POS tagging: process of converting each token into a tuple having the form (word, tag)
+4) Stopwords removal: remove stopwords that carry very little information
+5) Obtaining the stem words: A stem is a part of a word responsible for its lexical meaning (Lemma)
+6) Calculating VADER Sentiment Scores for the stem words.
 
 ---
 
@@ -106,7 +120,7 @@ The models are evaluated using accuracy, precision, and recall.
 
         Inputs(X):
         Market Sentiment – The percentage of investors which feel bullish during a given week (AAII survey)
-        SMA (Short and Long) – 5 and 10 days
+        SMA (Short and Long) – 7 and 20 days
         Twitter Sentiment Score – csv file from kaggle
 
 
