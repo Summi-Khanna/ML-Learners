@@ -10,7 +10,9 @@ The models we used to conduct our analysis:
 - Logistic Regression
 - Decision Tree
 
----
+## Final Analysis Files
+- TSLA_final_analysis.ipynb
+- AMZN_final_analysis.ipynb
 
 ## Data Sources:
 
