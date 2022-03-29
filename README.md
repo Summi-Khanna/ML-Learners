@@ -79,6 +79,7 @@ Before running the application first install the following dependencies:
 5) Obtaining the stem words: A stem is a part of a word responsible for its lexical meaning (Lemma)
 6) Calculating VADER Sentiment Scores for the stem words.
 
+https://drive.google.com/file/d/1OJpzwIfPuGd-oggKGnS3kfHTFW4HDXL0/view?usp=sharing
 ---
 
 ## Summary:
